@@ -1,0 +1,15 @@
+ride
+type ferris_wheel
+number 1
+
+ride
+type carousel
+number 2
+
+ride
+type roller_coaster
+number 1
+
+ride
+type bumper_cars
+number 0

@@ -1,0 +1,46 @@
+park
+space 600
+seed 280661
+
+ride
+type roller_coaster
+group adult,young_adult,teenager
+space 200
+length 3
+capacity 20
+queue 120
+
+ride
+type ferris_wheel
+group adult,young_adult,teenager,adolescent,toddler
+space 150
+length 10
+capacity 45
+queue 65
+
+ride
+type carousel
+group adolescent,toddler
+space 100
+length 5
+capacity 35
+queue 50
+
+ride
+type bumper_cars
+group adult,young_adult,teenager,adolescent
+space 120
+length 10
+capacity 25
+queue 40
+
+people
+arrival 2 1
+groupDistribution 0.33 0.33 0.34
+friendAge 20 1.5
+numberFriend 4 2
+numberChildren 2 1
+ageChild 9 4
+individual 28 5
+
+end file

@@ -1,0 +1,30 @@
+park
+space 650
+seed 10005
+
+ride
+type roller_coaster
+group adult,young_adult,teenager
+space 80
+length 3
+capacity 20
+queue 120
+
+ride
+type carousel
+group adolescent,toddler
+space 40
+length 5
+capacity 35
+queue 50
+
+people
+arrival 2 1
+groupDistribution 0.30 0.33 0.37
+friendAge 20 1.5
+numberFriend 4 2
+numberChildren 2 1
+ageChild 9 4
+individual 28 5
+
+end file
